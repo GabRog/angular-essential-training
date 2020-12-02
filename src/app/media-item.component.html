@@ -1,5 +1,7 @@
-<h2>The Redemption</h2>
-<div>Watched on 1/13/2016</div>
+<h2 [textContent]="name"></h2> <!--property binding syntax-->
+<h2 textContent="{{ name }}"></h2> <!--property binding syntax-->
+
+<div>{{ wasWatched() }}</div> <!-- interpolation statement-->
 <div>Action</div>
 <div>2016</div>
 <div class="tools">
