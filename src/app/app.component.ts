@@ -17,5 +17,17 @@ import { Component } from '@angular/core';
     styleUrls: ['./app.component.css']
 }) // needed at least two arguments: selector and template/template component
 export class AppComponent {
-
+    firstMediaItem = {
+        id: 1,
+        name: 'Firebug',
+        medium: 'Series',
+        category: 'Science Fiction',
+        year: 2010,
+        watchedOn: 1294166565384,
+        isFavorite: false
+      };
+      
+    onMediaItemDelete(mediaItem) {
+        
+    }
 }
