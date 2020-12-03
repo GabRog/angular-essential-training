@@ -17,6 +17,7 @@ import { Component } from '@angular/core';
     styleUrls: ['./app.component.css']
 }) // needed at least two arguments: selector and template/template component
 export class AppComponent {
+    /*
     firstMediaItem = {
         id: 1,
         name: 'Firebug',
@@ -31,4 +32,5 @@ export class AppComponent {
     onMediaItemDelete(mediaItem) {
         
     }
+    */
 }

@@ -1,17 +1,27 @@
+<!--
 <section>
     <header>
       <h1>Media Watch List</h1>
       <p class="description">Keeping track of the media I want to watch.</p>
     </header>
-    <!-- <mw-media-item [mediaItemToWatch]="firstMediaItem"></mw-media-item> -->
-    <!-- when this media component emits it's delete event we want to respond to that by calling
+    <!- <mw-media-item [mediaItemToWatch]="firstMediaItem"></mw-media-item> ->
+    <!- when this media component emits it's delete event we want to respond to that by calling
         the app component onMediaItemDelete method
-    -->
+    ->
     <mw-media-item (delete)="onMediaItemDelete($event)"
-        [mediaItem]="firstMediaItem"></mw-media-item> <!--it cannot be self closing-->
+        [mediaItem]="firstMediaItem"></mw-media-item> <!-it cannot be self closing->
 
-    <!-- Angular, when parses property syntax in the template, is going to find
+    <!- Angular, when parses property syntax in the template, is going to find
         - match on a known DOM property name for an element
         - property decorated by the input decorator on the component or directive that applies to that element
-    -->
+    ->
   </section>
+-->
+
+<section>
+<header>
+    <h1>Media Watch List</h1>
+    <p class="description">Keeping track of the media I want to watch.</p>
+</header>
+<mw-media-item-list></mw-media-item-list>
+</section>
